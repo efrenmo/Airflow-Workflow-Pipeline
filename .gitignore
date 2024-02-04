@@ -1,0 +1,10 @@
+.env
+logs/
+**__pycache__**
+sales_data/sales**
+sales_data/calendar.csv
+sales_data/inventory.csv
+sales_data/product.csv
+sales_data/store.csv
+
+
