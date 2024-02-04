@@ -16,7 +16,7 @@ or replace table sales_db.sales_schema.sales_summary (
 );
 create
 or replace stage s3_stage_sales url = 's3://phase-3-airflow-lab-bucket/output/' credentials =(
-    aws_key_id = 'AKIAV4NG4RPRLNXHOSWJ' aws_secret_key = '56vAntXhD25zgFtqxqQW+Kk/vcoiv9ENSIhCOLmk'
+    aws_key_id = AWS_KEY_ID aws_secret_key = AWS_SECRET_KEY
 );
 show stages;
 list @s3_stage_sales;
